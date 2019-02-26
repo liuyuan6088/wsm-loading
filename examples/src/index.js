@@ -2,6 +2,6 @@ import React from 'react';
 import { render} from 'react-dom';
 import MyComponent from '../../src';
 const App = () => (
-    <MyComponent />
+    <MyComponent size='36' color='red' />
 );
 render(<App />, document.getElementById("root"));
