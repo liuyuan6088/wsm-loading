@@ -16,10 +16,10 @@ export default class MyComponent extends Component {
     const ringStyle = Object.assign({}, colorStyle, sizeStyle);
 
       return (
-      <div className="at-loading" style={sizeStyle}>
-        <div className="at-loading__ring" style={ringStyle} />
-        <div className="at-loading__ring" style={ringStyle} />
-        <div className="at-loading__ring" style={ringStyle} />
+      <div className="loading" style={sizeStyle}>
+        <div className="loading__ring" style={ringStyle} />
+        <div className="loading__ring" style={ringStyle} />
+        <div className="loading__ring" style={ringStyle} />
       </div>
     );
   }
